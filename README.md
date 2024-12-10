@@ -52,6 +52,7 @@ conda create -n dcpnerf python=3.7
 链接: https://pan.baidu.com/s/194424V2hHTpTZZVmwWH0MA?pwd=5s2k 提取码: 5s2k 
 ## Training
 ```python
+python run.py
 --root_dir /data/CG/data/car/
 --exp_name car_np
 --split train
