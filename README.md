@@ -1,6 +1,6 @@
 # ProactiveNeRF
 **Enhancing 3D Object Interior and Exterior Reconstruction with an Two-Stage Proactive Approach**
-![Overview of our method]([https://github.com/C2022G/ProactiveNeRF/blob/main/readme/1.png)
+![Overview of our method](https://github.com/C2022G/ProactiveNeRF/blob/main/readme/1.png)
 
 The implementation of our code is referenced in [kwea123-npg_pl](https://github.com/kwea123/ngp_pl)。The hardware and software basis on which our model operates is described next
  - Ubuntu 18.04
@@ -49,3 +49,24 @@ conda create -n dcpnerf python=3.7
 	```
 
 ## Datasets
+链接: https://pan.baidu.com/s/194424V2hHTpTZZVmwWH0MA?pwd=5s2k 提取码: 5s2k 
+## Training
+```python
+--root_dir /data/CG/data/car/
+--exp_name car_np
+--split train
+--scale 1
+--num_epochs 15
+--downsample 0.5
+--stage_end_epoch 2
+--stage_num 3
+--l1TimePlanes_weight 1e-4
+--timeSmoothness_weight 1e-3
+--distortion_weight 1e-3
+--opacity_weight 1e-3
+--density_weight 1e-2
+```
+## result
+![](https://github.com/C2022G/ProactiveNeRF/blob/main/readme/4.png)
+![](https://github.com/C2022G/ProactiveNeRF/blob/main/readme/5.png)
+![](https://github.com/C2022G/ProactiveNeRF/blob/main/readme/6.png)
