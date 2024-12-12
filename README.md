@@ -49,7 +49,7 @@ conda create -n dcpnerf python=3.7
 	```
 
 ## Datasets
-链接: https://pan.baidu.com/s/194424V2hHTpTZZVmwWH0MA?pwd=5s2k 提取码: 5s2k 
+链接: https://pan.baidu.com/s/1NCFKKgwS_MW_Ynezw9KxCw?pwd=h8zh 提取码: h8zh 
 ## Training
 ```python
 python run.py
